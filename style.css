@@ -1,0 +1,190 @@
+            
+            body{
+                background-image: linear-gradient(180deg,#d93063,#ff0000) ;
+                font-family: 'Saira Condensed', sans-serif;
+            }
+            h1{
+                font-size: 80px;
+                color: white ;
+                text-align: center;
+                font-family:'Homemade Apple', cursive;
+                
+            }
+            h2{
+                font-size: 35px;
+                color:white;
+                text-align: center;
+            }
+            h3{
+                font-size: 75px;
+                color: white;
+                text-align: center;
+            }
+            h4{
+                font-size: 35px;
+                color:black;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            .Fun_Div{
+                 text-align: left;
+            }
+            #GalHead{
+                font-family: Arial, Helvetica, sans-serif;
+                color:white;
+                font-size: 80px;
+                text-align: center;
+                padding-top: 100px;
+                
+            }
+            #GalSub{
+                font-family: Arial, Helvetica, sans-serif;
+                color:black;
+                font-size: 20px;
+                text-align: center;
+                padding-bottom: 500px;  
+            }
+            #DevSub{
+                font-family: Arial, Helvetica, sans-serif;
+                color:white;
+                font-size: 20px;
+                text-align: center;
+                padding-bottom: 500px;  
+            }
+            .GalHeader{
+                background-image: url("img/GalleryBG.jpg");
+                background-repeat: no-repeat;
+                position: center top;
+                background-size: cover;
+                font-family: 'Chango', cursive;
+            }
+            #Gallery1{
+                margin-bottom: 100px;
+            }
+            .size{
+                    height: 500px;
+                    padding-bottom: 200px;
+                    padding-top: 100px;
+                }
+            .VidHeader{
+                background-image: url("img/VidGalBG.gif");
+                background-repeat: no-repeat;
+                position: center top;
+                background-size: cover;
+                font-family: 'Chango', cursive;
+            }
+            .MerchHeader{
+                background-image: url("img/MerchHead.jpg");
+                background-repeat: no-repeat;
+                position: center top;
+                background-size: cover; 
+                font-family: 'Chango', cursive;
+            }
+            .AboutHeader{
+                background-image: url("img/Capture.PNG");
+                background-repeat: no-repeat;
+                position: center top;
+                background-size: cover; 
+                font-family: 'Chango', cursive;
+            }
+            .Fun_ThingsHeader{
+                background-image: url("img/FunThingsBG.jpg");
+                background-repeat: no-repeat;
+                position: center top;
+                background-size: cover;
+                font-family: 'Chango', cursive; 
+            }
+            .DevHeader{
+                background-image: url("img/DevBG.jpg");
+                background-repeat: no-repeat;
+                position: center top;
+                background-size: cover;
+                font-family: 'Chango', cursive;
+            }
+            #GalHead2{
+                font-family: Arial, Helvetica, sans-serif;
+                color:black;
+                font-size: 80px;
+                text-align: center;
+                padding-top: 100px;
+            }
+            #GalSub2{
+                font-family: Arial, Helvetica, sans-serif;
+                color:black;
+                font-size: 20px;
+                text-align: center;
+                padding-bottom: 500px;  
+            }
+            p{
+                font-size:30px;
+                color: rgb(255, 255, 255);
+                text-align: center;
+            }
+            pre{
+                font-size: 20px;
+                color: white;
+                text-align: center;
+                
+            }
+            .top{
+                text-align: center;
+                vertical-align: middle;
+            }
+           
+            #paraPic{
+                text-align: center;
+            }
+            
+            .lastPara{
+                text-align: center;
+                display: inline;
+                background-image: url('img/giphy.gif');
+                background-repeat: no-repeat;
+            }
+            *{
+                box-sizing: border-box;
+            }
+            .column{
+                float: right;
+                width: 50%;
+                padding: 10px;
+                height: 300px;
+            }
+            .row:after{
+                display: table;
+                clear: both;
+                text-align: center;
+                content: "";
+            }
+            #chesh{
+                text-align: right;
+            }
+            #lastImg{
+                float: left;
+            }
+            #paraVid{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 1500px;
+            }
+            .topnav{
+                overflow: hidden;
+                background-image: radial-gradient(circle,#FF0000,#d93063) ;
+            }
+            .topnav a{
+                float:left;
+                color: #ffffff;
+                text-align:center;
+                padding: 14px 16px;
+                font-size: 28px;
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .topnav a:hover{
+                background-color: #ffff;
+                color: rgba(255, 0, 0, 0.534);
+            }
+            .topnav a.active{
+                background-color: rgba(255, 0, 0, 0.787);
+                color: white;
+            }
